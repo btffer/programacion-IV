@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seguimiento de un txt</title>
+</head>
+<body bgcolor="red" style="color: hsl(0, 6%, 94%); font-size:20px;;"> 
+    <h1><center>como hacer un seguimiento a un TXT en Git</center></h1>
+    <center><img src=C:\Users\axel\Desktop\programacion\Git-logo.png width="400>"</center>  
+    <P>aqui te explicaremos el paso a paso de como hacer un seguiminto de un txt con Git </P>
+    <h2 style="color: black;font-size: 30px;"><center>paso 1</center></h2>
+    <p>lo primero que debemos hacer es la configuracion inicial la cual se hace con los siguientes codigos(git config --global user.name "tu nombre")y (git config --global user.email tuemail@gmail.com)</p>
+    <center><img src=C:\Users\axel\Desktop\programacion\imagenestp\cinicial.jpg width="800>"</center>
+    <h1 style="color: black;font-size: 30px;">paso2</h1>
+    <P>Lo segundo que debes hacer es crear un archivo de texto en la carpeta o el lugar en donde quemeos dejarlo. ¿Cómo lo hacemos? Es simple.lo primero que devemos hacer es ingresar a escritorio . esto lo hacemos con el comando cd Desktop.    </P>
+    <center><img src=C:\Users\axel\Desktop\programacion\imagenestp\imagen1.jpg width="800>"</center>
+    <h3 style="color: black;font-size: 30px;"><center>paso 3</center></h3>
+    <p>el segundo paso es crear una carpeta nueva.esto lo hacemos con el comando (mkdir nombredecarpeta) e ingresamos a la carpeta con el comando (cd nombredelacarpeta)</p>
+    <p>una vez dentro de la carpeta debemos crear el archivo de texto con el comando (touch nombredelarchivo.txt)</p>
+    <center><img src=C:\Users\axel\Desktop\programacion\imagenestp\imagen2.jpg width="800>"</center>
+    <h4 style="color: black;font-size: 30px;">paso 4</h4>
+    <p>ahora dentro de la carpeta creamos un repositorio con el codigo(git init)</p>
+    <center><img src=C:\Users\axel\Desktop\programacion\imagenestp\imagen3.jpg width="800>"</center>
+    <p>ahora solo debemos ingresar el codigo (git add nombredearchivo.txt)para hacer el seguimiento al rchivo creado </p>
+    <p>ahora para saber si es que a nuestro archivo le estamos haciendo seguimiento debemos ingresar el codigo (git status)</p>
+    <center><img src=C:\Users\axel\Desktop\programacion\imagenestp\imagen4.jpg width="800>"</center>
+    <h5 style="color: black;font-size: 30px;">paso 5</h5>
+    <p>ahora realizalemos un commit para guardar los cambios en el repositorio local</p>
+    <center><img src=C:\Users\axel\Desktop\programacion\imagenestp\imagen5.jpg width="800>"</center>
+<h6 style="color: black;font-size: 30px;" >paso 6 </h6>
+    <p>lo ultimo que debemos de hacer es crear un repositorio remoto, lo primero que debemos hacer es entrar al link que se encuentra al final de esta paguina y debemos loguearnos </p>
+    <p>una vez que nos logueamos vemos en la parte superior izquierda de la pagina un boton que dice NEW ahi es donde podemos crear un repositorio</p>
+    <center><img src=C:\Users\axel\Desktop\programacion\imagenestp\imagen6.jpg width="800>"</center>
+    <p>esto nos llevara a crear e repositorio en donde nos pide que ingresemos un nombre y una descripcion (la descripcion es opcional)</p>
+    <center><img src=C:\Users\axel\Desktop\programacion\imagenestp\imagen7.jpg width="800>"</center>
+    <p>una vez creado debemos volver a git. en donde debemos agregar el repositorio remoto con el codigo (git remote add origin URLelrepositorioremoto) ademas el codigo (git branch -m main)</p>
+    <p>y por ultimo enviamos los cambios a nustro repositorio remoto con el comando (git push -u origin main)</p>
+    <center><img src=C:\Users\axel\Desktop\programacion\imagenestp\rremoto.jpg width="800>"</center>
+    <p>y  estos son todos los pasos a realizar </p>
+    <a>https://github.com/</a>
+</body>
+</html>
